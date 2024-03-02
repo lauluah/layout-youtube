@@ -1,0 +1,252 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+header {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;   
+    gap: 24px;
+}
+
+.pesquisarEyoutube {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.youtube-icon {
+    height: 48px;
+    padding: 6px 49px;
+    margin: 0;   
+}
+
+input[type="text"]{
+    width: calc(58% + 735px);
+    height: 17px;
+    font-size: 16px;
+    padding: 10px 16px ;
+    border-radius: 40px;
+    margin-right: 50px;
+    border-color: #dcdada; 
+    border-width: 2px; 
+    border-style: solid; 
+}
+
+.icons {
+   float: right;
+}
+
+.icons ion-icon {
+    position: relative;
+    top: -47px;
+    font-size: 23px;
+    padding: 8px 10px;
+}
+
+.menu-YT { 
+    font-size: 27px;
+    margin-top: -45px;
+    padding: 2px 10px;
+}
+
+nav {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    padding: 19px 0;
+    margin: 10px -100px ;
+    float: right;
+}
+
+nav button {
+    display: inline-block; 
+    width: 100%;
+    height: 30px;
+    margin: -15px 1px;
+    border: 0;
+    padding: 10px 10px;
+    border-radius: 9px;
+    font-size: 11px;
+    margin-top: -13px;
+    font-weight: bold;
+}
+
+nav button:hover {
+    background-color: black;
+    color: white;
+}
+
+header input {
+    width: 100%;
+    font-size: 19px;
+    padding: 8px 10px;
+    border-radius: 30px;
+    margin: 0 10%;
+}
+
+.icons-pesquisa {
+    font-size: 21px;
+    display: flex;
+    width: 16%; 
+    float: right;
+    padding: 4px;
+    margin: 0 29px;
+    margin-top: -43px;
+}
+
+.icon-micro {
+    font-size: 24px;
+    display: flex;
+    width: 16%; 
+    float: right;
+    padding: 4px;
+    margin: 0 -22px;
+    margin-top: -46px;
+}
+
+main {
+    width: 100%;
+    padding: 0;
+    columns: flex;
+    margin: 0;
+}
+
+section {
+    width: 95%;
+    padding: 0;
+    columns: 3;
+    margin: auto;
+    gap: 5%;
+}
+
+img {  
+    width: 100%;
+    margin: 6% 0px;
+    padding: 2px 0;
+    aspect-ratio: 17/9;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.Logo-Alanzoka {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -40px;
+}
+
+.Logo-PODPAH {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p1 {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -36px;
+}
+
+.Logo-Exercicio {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p2 {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -40px;
+}
+
+.Logo-Rocketseat {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p3 {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -40px;
+}
+
+.Logo-canal-Nostalgia {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p4 {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -40px;
+}
+
+.logo-CursoVideo {
+    display: block;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-top: 0;
+    margin: -18px 6px;
+    object-fit: cover;
+}
+
+p5 {
+    display: block;
+    width: 90%;
+    font-size: 15px;
+    margin: 4px 13%;
+    padding: 1px 5px;
+    margin-top: -40px;
+}
